@@ -1,0 +1,54 @@
+body {
+	line-height:1.4em;
+	-x-system-font:none;
+	background-color:white;
+	font-family:helvetica,arial,freesans,clean,sans-serif;
+	font-size:13.34px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	width: 920px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+h2,h3 {
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	margin-top:2em;
+}
+
+#posts {
+	float:left;
+	width:41em;
+}
+
+a {
+	text-decoration:none;
+	color:#4183C4;
+}
+
+h2 {
+	font-size: 190%;
+	border:0 none !important;
+}
+
+#sub_h2 {
+	color:#CCCCCC;
+	font-size: 130%;
+}
+
+#sub_h3 {
+	color:#CCCCCC;
+	font-size: 110%;
+}
+
+p {
+	font-size: 110%;
+}
