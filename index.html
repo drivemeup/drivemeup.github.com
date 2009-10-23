@@ -6,14 +6,14 @@ title: Drivemeup
 	<div id="posts">
 		{% for post in site.posts limit:5 %}
 			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			<em id="sub_h2">Posted on {{ post.date | date_to_long_string }}.</em>
+			<em id="sub_h2">{{ post.date | date_to_long_string }}</em>
 		  	{{ post.content }}
 		{% endfor %}
 	</div>
 	<div id="sidebar">
 		{% for post in site.posts %}
 			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			<em id="sub_h3">Posted on {{ post.date | date_to_long_string }}.</em>
+			<em id="sub_h3">{{ post.date | date_to_long_string }}</em>
 		{% endfor %}
 	</div>
 </div>
