@@ -52,3 +52,7 @@ h2 {
 p {
 	font-size: 110%;
 }
+
+#disqus_thread {
+	width: 300px;
+}
