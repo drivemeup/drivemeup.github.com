@@ -1,0 +1,6 @@
+<div id="sidebar">
+	{% for post in site.posts %}
+		<h3><a alt="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
+		<em id="sub_h3">{{ post.date | date_to_long_string }}</em>
+	{% endfor %}
+</div>
