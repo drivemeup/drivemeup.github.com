@@ -2,12 +2,13 @@
 <html>
   <head>
 	<link href="/css/dmu.css" media="screen" rel="stylesheet" type="text/css" />
-    <title>{{ page.title }}</title>
+    <title>{{ site.title }}</title>
   </head>
 
   <body>
-    <h1>{{ page.title }}</h1>
-
+	{% include logo.html %}
     {{ content }}
+	<div class="clear"></div>
+	{% include footer.html %}
   </body>
 </html>

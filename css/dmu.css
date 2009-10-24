@@ -4,20 +4,21 @@ body {
 	background-color:white;
 	font-family:helvetica,arial,freesans,clean,sans-serif;
 	font-size:14px;
-	font-size-adjust:none;
-	font-stretch:normal;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:normal;
 	width: 920px;
 	margin-left: auto;
 	margin-right:auto;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 h2,h3 {
 	margin: 0;
 	padding: 0;
+}
+
+h1 {
+	color: #474449;
+	font-family: Century Gothic, sans-serif;;
 }
 
 #content {
@@ -26,7 +27,12 @@ h2,h3 {
 
 #posts {
 	float:left;
-	width:41em;
+	width: 547px;
+}
+
+#sidebar {
+	float: right;
+	width: 26em;
 }
 
 a {
@@ -51,8 +57,24 @@ h2 {
 
 p {
 	font-size: 110%;
+	text-align: justify;
 }
 
 #disqus_thread {
 	width: 450px;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	width: 547px;
+	border-top:4px solid #EEEEEE;
+	color:#666666;
+	font-size:80%;
+	margin-top:2em;
+	padding-top: 10px;
+	overflow:hidden;
+	margin-bottom: 20px;
 }

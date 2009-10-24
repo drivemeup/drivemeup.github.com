@@ -1,36 +1,28 @@
-
 <!DOCTYPE html>
 <html>
   <head>
 	<link href="/css/dmu.css" media="screen" rel="stylesheet" type="text/css" />
-    <title>Drivemeup carpooling| {{ page.title }}</title>
+    <title>{{ site.title }} | {{ page.title }}</title>
   </head>
 
   <body>
-    <h1>{{ page.title }}</h1>
-
-	 {{ content }}
-
-	<div id="disqus_thread"></div>
-	<script type="text/javascript" src="http://disqus.com/forums/drivemeup/embed.js"></script>
-	<noscript>
-		<a href="http://disqus.com/forums/drivemeup/?url=ref">View the discussion thread.</a>
-	</noscript>
-	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-	<script type="text/javascript">
-	//<![CDATA[
-	(function() {
-		var links = document.getElementsByTagName('a');
-		var query = '?';
-		for(var i = 0; i < links.length; i++) {
-		if(links[i].href.indexOf('#disqus_thread') >= 0) {
-			query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-		}
-		}
-		document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/drivemeup/get_num_replies.js' + query + '"></' + 'script>');
-	})();
-	//]]>
-	</script>
-
+	{% include logo.html %}
+	<div id="content">
+		<div id="posts">
+			<h2><a alt="{{ page.title }}" href="{{ page.url }}">{{ page.title }}</a></h2>
+			<em id="sub_h2">{{ page.date | date_to_long_string }}</em>
+		 	{{ content }}
+		</div>
+		<div id="sidebar">
+			{% for post in site.posts %}
+				<h3><a alt="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
+				<em id="sub_h3">{{ post.date | date_to_long_string }}</em>
+			{% endfor %}
+		</div>
+		<div id="disqus_thread"></div>
+	</div>
+	{% include disqus.html %}
+	<div class="clear"></div>
+	{% include footer.html %}
 	</body>
 </html>
