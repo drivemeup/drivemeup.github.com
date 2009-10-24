@@ -13,12 +13,7 @@
 			<em id="sub_h2">{{ page.date | date_to_long_string }}</em>
 		 	{{ content }}
 		</div>
-		<div id="sidebar">
-			{% for post in site.posts %}
-				<h3><a alt="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
-				<em id="sub_h3">{{ post.date | date_to_long_string }}</em>
-			{% endfor %}
-		</div>
+		{% include sidebar.html %}
 		<div id="disqus_thread"></div>
 	</div>
 	{% include disqus.html %}
