@@ -43,7 +43,9 @@ a {
 h2 {
 	font-size: 190%;
 	border:0 none !important;
+	color: #474449;
 }
+
 
 #sub_h2 {
 	color:#CCCCCC;
@@ -77,4 +79,26 @@ p {
 	padding-top: 10px;
 	overflow:hidden;
 	margin-bottom: 20px;
+}
+
+#atom {
+	float: left;
+}
+
+#subscribe {
+/*	float: right;*/
+	margin-top: 10px;
+	font-family:Century Gothic,sans-serif;
+	font-size: 25px;
+}
+
+#sidebar_content {
+	margin-left: 15px;
+	border-top:2px solid #EEEEEE;
+	margin-top:0.75em;
+	padding-top:0.75em;
+}
+
+#atom_link img {
+	border: none;
 }

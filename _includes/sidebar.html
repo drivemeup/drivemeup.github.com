@@ -1,6 +1,34 @@
 <div id="sidebar">
-	{% for post in site.posts %}
-		<h3><a alt="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
-		<em id="sub_h3">{{ post.date | date_to_long_string }}</em>
-	{% endfor %}
+	<div id="atom">
+		<a href="/atom.xml" id="atom_link">
+			<img src="/images/atom.png" alt="subscribe" />
+		</a>
+	</div>
+	<div id="subscribe">
+		<center>Subscribe to the Blog <br />
+		and<br />
+		Enter you email to get the newsletter
+		<br /><br />
+		<form action='http://drivemeup.com/getnotified' method='post'>
+		    <input type='text' name='user[email]' />
+		    <input type="submit" value="Subscribe" />
+		</form>
+		</center>
+	</div>
+	<div class="clear"></div>
+	<div id="sidebar_content">
+		<br />
+		<h2>Articles</h2>
+		<br />
+		{% for post in site.posts %}
+			<h3><a alt="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
+			<em id="sub_h3">{{ post.date | date_to_long_string }}</em>
+		{% endfor %}
+		<br />
+		<br />
+		<h2>Find us on </h2>
+		<br />
+		<h3><a alt="Drivemeup on Twitter" href="http://twitter.com/drivemeup">Twitter</a></h3>
+		<h3><a alt="Drivemeup on Github" href="http://github.com/drivemeup/">GitHub</a></h3>
+	</div>
 </div>
