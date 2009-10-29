@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ {% if page.lang == "fr" %}
+ 	<title>{{ site.title_fr }}</title>
+ {% else %}
+	<title>{{ site.title_en }}</title>
+ {% endif %}
+ <link href="http://drivemeup.github.com/atom.xml" rel="self"/>
+ <link href="http://drivemeup.github.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://blog.drivemeup.com/</id>
+ <author>
+   <name>drivemeup carpooling</name>
+   <email>contact@drivemeup.com</email>
+ </author>
+ 
+ {% if page.lang == "fr" %}
+	{% for post in site.categories.fr %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="http://drivemeup.github.com{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>http://blog.drivemeup.com{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+ {% else %}
+ 	{% for post in site.categories.en %}
+ 		<entry>
+   			<title>{{ post.title }}</title>
+   			<link href="http://drivemeup.github.com{{ post.url }}"/>
+   			<updated>{{ post.date | date_to_xmlschema }}</updated>
+   			<id>http://blog.drivemeup.com{{ post.id }}</id>
+   			<content type="html">{{ post.content | xml_escape }}</content>
+ 		</entry>
+ 	{% endfor %}
+ {% endif %}
+</feed>

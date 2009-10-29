@@ -2,11 +2,15 @@
 <html>
   <head>
 	<link href="/css/dmu.css" media="screen" rel="stylesheet" type="text/css" />
-    <title>{{ site.title }}</title>
+	{% if page.lang == "fr" %}
+		<title>{{ site.title_fr }}</title>
+	{% else %}
+		<title>{{ site.title_en }}</title>
+	{% endif %}
   </head>
 
   <body>
-	{% include logo.html %}
+	{% include header.html %}
     {{ content }}
 	<div class="clear"></div>
 	{% include footer.html %}

@@ -1,2 +1,3 @@
-title: drivemeup carpooling
-description: Find Carpool and Rideshare to or from 31 countries.
+title_fr: drivemeup covoiturage
+title_en: drivemeup carpooling
+permalink: /:categories/:year/:month/:day/:title

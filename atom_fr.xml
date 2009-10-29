@@ -1,5 +1,5 @@
 ---
 layout: nil
-lang: en
+lang: fr
 ---
 {% include atom_content.xml %}

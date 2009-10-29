@@ -1,0 +1,17 @@
+<div id="head">
+	<div id="logo">
+		{% if page.lang == "fr" %}
+			<a alt="drivemeup" href="/fr">
+				<h1>{{ site.title_fr }}</h1>
+			</a>
+		{% else %}
+			<a alt="drivemeup" href="/">
+				<h1>{{ site.title_en }}</h1>
+			</a>
+		{% endif %}
+	</div>
+	<div id="flags">
+		<a href="/fr"><img src="/images/fr.png" /></a>
+		<a href="/"><img src="/images/gb.png" /></a>
+	</div>
+</div>
