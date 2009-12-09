@@ -3,6 +3,7 @@ layout: post
 title: We're back en francais !
 lang: fr
 published: true
+Format: complete
 ---
 
 Encore un nouveau d&eacute;part pour **Drivemeup**, petit retour en arri&egrave;re...
@@ -15,7 +16,9 @@ Apr&egrave;s d'intenses s&eacute;ances de r&eacute;flexion nous n'avions ni trou
 pour obtenir la paix sur terre (nous avons vraiment essay&eacute; mais c'est plus compliqu&eacute; qu'il n'y para&icirc;t...),
 ni traitement contre le cancer, ni m&ecirc;me aider des personnes &agrave; acheter et vendre des objets sur le Web (euh...&ccedil;a a d&eacute;j&agrave; &eacute;t&eacute; fait &ccedil;a non ?!).
 
-BLAHBLAH
+Tout au long de nos études nous nous retrouvions le matin dans un café, pour parler de nos idées, de problèmes de codes rencontrés ou d'articles lus récemment, bref geeker et refaire le monde. Nous finissions tous dans une voiture pour se rendre a l'école qui se situait loin de nos appartement respectifs.
+Et un jour Louis eu une idée (ca lui arrive rarement alors je tiens a le mentionner) "Pourquoi ne pas aider les gens à se déplacer ? de la meme facon que nous le faisons ... se retrouver quelquepart et partir en voiture ... faire du covoiturage ! ".
+Nous y avons alors réfléchi, imaginé comment simplifier la vie des gens et regardé ce qui se faisait déjà sur internet ... pour finalement se rendre compte qu'aucun site ne propose la vision que nous en avions : ne pas se limiter à des petites annonces mais aussi y ajouter une couche sociale, la possibilité d'interagir avec sa communauté car le covoiturage ce n'est pas seulement un transport économique et environmental, c'est aussi une facon de rencontrer des gens qui partagent nos gouts et nos passions et qui sait demain naitra peux etre un groupe d'amis, un amour ou un projet comme le notre ?
 
 Ainsi, nous avons commenc&eacute; &agrave; concevoir et d&eacute;velopper un site internet qui
 aiderai les gens &agrave; organiser et &eacute;tablir leur propre communaut&eacute; de covoiturage.
