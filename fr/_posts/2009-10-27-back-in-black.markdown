@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We're back en francais !
+title: Nous revoil&agrave; !
 lang: fr
 published: true
 ---
