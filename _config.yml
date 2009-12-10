@@ -1,3 +1,4 @@
 title_fr: drivemeup covoiturage
 title_en: drivemeup carpooling
 permalink: /:categories/:year/:month/:day/:title
+markdown: maruku

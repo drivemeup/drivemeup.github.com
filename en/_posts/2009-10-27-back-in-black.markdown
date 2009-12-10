@@ -11,9 +11,10 @@ There we were, yet another burgeoning team of student-friends looking for Master
 
 After several brainstorming sessions, we still could not find a way to bring about peace on earth (we really did try but it was kind of hard...), cure cancer, help people buy and sell things online ( wait a minute it has been done! ) , ...
 
-BLAHBLAH
+All along our studies, we met the moning in a caf&eacute;, to talk about anything, uber-geeky or not and reinventing the world. We always finished in a car to go to high-school that was far from our appartments. 
+And a day, Louis had an idea (so inusual !), "Why not helping people to move ? in the same way we do it ... met at a point and share a car ... carpooling !". We deeply thought about that and had some really kick-ass ideas.
 
-So, we started to think and build a carpooling website which would help people build an online ride-sharing community. That's why we thought about this community as very social network-oriented one, with the capability of creating events, groups, inviting friends, ...
+So, we started to think and build a carpooling website which would help people build an online ridesharing community. That's why we thought about this community as very social network-oriented one, with the capability of creating events, groups, inviting friends, ...
 
 After few months of intense development and a growing addiction to coffee... the first prototype was born! Bugs, a not very clear navigation scheme, a controversial (contentious) site design... in short, lots of progress but still a big mess. But yes the idea was there!
 Initially, we attracted some users but the site was arguably half-baked enough to not be too attractive and we clearly did not have enough experience to make a convincing case for users at that early time in the project.
@@ -25,4 +26,4 @@ We began development a few weeks ago, we prepared an action plan and we are work
 
 We'll be launching in 2010.  
 
-We do have a lot more to share as well. If you'd like to stay connected to what's happening with Drivemeup, you can subscribe to this blog's feed, follow us on Twitter, or sign up for a preview and we'll let you know as soon as it's ready.
+We do have a lot more to share as well. If you'd like to stay connected to what's happening with Drivemeup, you can subscribe to this blog's [feed](/atom.xml), follow us on Twitter [here](http://twitter.com/drivemeup), or [signup](http://www.drivemeup.com) for a preview and we'll let you know as soon as it's ready.
