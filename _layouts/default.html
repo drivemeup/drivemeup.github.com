@@ -4,8 +4,12 @@
 	<link href="/css/dmu.css" media="screen" rel="stylesheet" type="text/css" />
 	{% if page.lang == "fr" %}
 		<title>{{ site.title_fr }}</title>
+		<meta name="description" content="{{site.description_fr}}" />
+		<meta name="keywords" content="{{site.keywords_fr}}" />
 	{% else %}
 		<title>{{ site.title_en }}</title>
+		<meta name="description" content="{{site.description_en}}" />
+		<meta name="keywords" content="{{site.keywords_en}}" />
 	{% endif %}
   </head>
 
