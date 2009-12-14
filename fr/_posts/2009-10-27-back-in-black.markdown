@@ -16,8 +16,11 @@ pour obtenir la paix sur terre (nous avons vraiment essay&eacute; mais c'est plu
 ni traitement contre le cancer, ni m&ecirc;me aider des personnes &agrave; acheter et vendre des objets sur le Web (euh...&ccedil;a a d&eacute;j&agrave; &eacute;t&eacute; fait &ccedil;a non ?!).
 
 Tout au long de nos &eacute;tudes, nous nous retrouvions le matin dans un caf&eacute;, pour parler de nos id&eacute;es, de probl&egrave;mes de codes rencontr&eacute;s ou d'articles lu r&eacute;cemment, bref geeker et refaire le monde. Nous finissions tous dans une voiture pour se rendre a l'&eacute;cole qui se situait loin de nos appartement respectifs.
+
 Et un jour, Louis eu une id&eacute;e (ca lui arrive rarement alors je tiens &agrave; le mentionner) "Pourquoi ne pas aider les gens &agrave; se d&eacute;placer ? de la m&ecirc;me fa&ccedil;on que nous le faisons ... se retrouver quelque part et partir en voiture ... faire du covoiturage ! ".
-Nous y avons alors r&eacute;fl&eacute;chi, imagin&eacute; comment simplifier la vie des gens et regarder ce qui se faisait d&eacute;j&agrave; sur internet ... pour finalement se rendre compte qu'aucun site ne propose la vision que nous en avions : ne pas se limiter &agrave; des petites annonces mais aussi y ajouter une couche sociale, la possibilit&eacute; d'interagir avec sa communaut&eacute; car le covoiturage ce n'est pas seulement un transport &eacute;conomique et environmental, c'est aussi une facon de rencontrer des gens qui partagent nos gouts et nos passions et qui sait demain naitra peux-&ecirc;tre un groupe d'amis, un amour ou un projet comme le notre ?
+
+Nous y avons alors r&eacute;fl&eacute;chi, imagin&eacute; comment simplifier la vie des gens et regarder ce qui se faisait d&eacute;j&agrave; sur internet ... pour finalement se rendre compte qu'aucun site ne propose la vision que nous en avions : ne pas se limiter &agrave; des petites annonces mais aussi y ajouter une couche sociale et la possibilit&eacute; d'interagir avec sa communaut&eacute;. 
+Le covoiturage ce n'est pas seulement un transport &eacute;conomique et environmental, c'est aussi une facon de rencontrer des gens qui partagent nos gouts et nos passions et qui sait demain naitra peux-&ecirc;tre un groupe d'amis, un amour ou un projet comme le notre ?
 
 Ainsi, nous avons commenc&eacute; &agrave; concevoir et d&eacute;velopper un site internet qui
 aidera les gens &agrave; organiser et &eacute;tablir leur propre communaut&eacute; de covoiturage.
