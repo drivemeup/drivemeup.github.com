@@ -33,13 +33,13 @@
 		<br />
 		{% if page.lang == "en" %}
 			{% for post in site.categories.en %}
-				<h3><a alt="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
+				<h3><a alt="{{ post.title }}" alt="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
 				<em id="sub_h3">{{ post.date | date_to_long_string }}</em>
 			{% endfor %}
 		{% endif %}
 		{% if page.lang == "fr" %}
 			{% for post in site.categories.fr %}
-				<h3><a alt="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
+				<h3><a alt="{{ post.title }}" alt="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
 				<em id="sub_h3">{{ post.date | date_to_long_string }}</em>
 			{% endfor %}
 		{% endif %}			

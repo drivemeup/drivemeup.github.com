@@ -50,4 +50,4 @@ Nous lancerons notre Drivemeup V2.0 en 2010.
 
 Nous avons plusieurs moyens de vous faire partager notre experience donc ...
 Si vous voulez rester connect&eacute; &agrave; Drivemeup, vous pouvez souscrire &agrave; notre [feed](/atom.xml),
-nous suivre sur Twitter [ici](http://twitter.com/drivemeup), ou s'[inscrire](http://drivemeup.fr) pour une avant-premi&eagrave;re et nous vous ferons savoir d&egrave;s qu'elle sera pr&ecirc;te.
+nous suivre sur Twitter [ici](http://twitter.com/drivemeup), ou s'[inscrire](http://drivemeup.fr) pour une avant-premi&egrave;re et nous vous ferons savoir d&egrave;s qu'elle sera pr&ecirc;te.
