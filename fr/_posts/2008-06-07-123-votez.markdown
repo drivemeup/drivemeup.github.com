@@ -1,0 +1,13 @@
+--- 
+wordpress_id: 12
+title: 1.2.3... Votez !!!
+wordpress_url: http://blog.drivemeup.fr/?p=15
+layout: post
+lang: fr
+---
+
+L&apos;&Eacute;quipe de DriveMeUp est heureuse de vous pr&eacute;senter son premier sondage.
+
+Sur votre gauche on vous propose de donner votre avis sur l&apos;utilisation du nom d&apos;utilisateur au sein du projet <a href="drivemeup.com">DriveMeUp</a>, alors n&apos;h&eacute;sitez pas.
+
+<strong>update : le sondage est maintenant ferm&eacute;</strong>
